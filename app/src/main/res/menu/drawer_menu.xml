@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- checkable behaviour makes sure we can only select one menu item-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Menu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_typesOfHacking"
+                    android:icon="@drawable/ic_types"
+                    android:title="Types of Hacking" />
+                <item
+                    android:id="@+id/nav_CyberVulnerabilities"
+                    android:icon="@drawable/ic_vulnerability"
+                    android:title="Cyber Vulnerabilities" />
+                <item
+                    android:id="@+id/nav_FamousCyberAttacks"
+                    android:icon="@drawable/ic_famousattacks"
+                    android:title="Famous Hacks" />
+
+                <item
+                    android:id="@+id/nav_FamousHackers"
+                    android:icon="@drawable/ic_famoushackers"
+                    android:title="Famous Hackers" />
+
+                <item
+                    android:id="@+id/nav_HowToDefend"
+                    android:icon="@drawable/ic_protect"
+                    android:title="How to Protect Yourself" />
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>
